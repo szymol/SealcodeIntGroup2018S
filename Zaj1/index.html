@@ -4,7 +4,7 @@
     
     </head>
     <body>
-        <form>
+        <form method="post" action="kontakt.php">
         <fieldset>
             <legend>My form</legend>
            <label>Imię:</label></br>
@@ -19,7 +19,7 @@
             
             </br>
             <label>Wiadomość:</label></br>
-            <textarea rows="4" cols="50" placeholder="Twoja wiadomość"></textarea></br>
+            <textarea name='message' rows="4" cols="50" placeholder="Twoja wiadomość"></textarea></br>
             <input type="checkbox">Chcę się zapisać do newslettera></br>
             <input type="submit" name="wyslij" value="Wyślij">
         </fieldset>
